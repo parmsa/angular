@@ -1,0 +1,6 @@
+<div *ngFor="let article of getArticle()">
+    <h1>{{article.titreArticle}}</h1>
+    <p>{{article.contenuArticle}}</p>
+    <p>{{article.dateArticle|date:"short"}}</p>
+    <p>{{article.idArticle}}</p>
+</div>
